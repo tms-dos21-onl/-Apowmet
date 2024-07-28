@@ -7,7 +7,9 @@ while read -r line; do
         else
             echo "Size is equal 0 bytes"
         fi
+        exit 0
     else
         echo "$line does not exist"
     fi
+    exit 0
 done
