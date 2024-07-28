@@ -5,9 +5,9 @@ while read -r line; do
         if [[ -s "$line" ]]; then
             echo "$line"
         else
-            echo "Size is equal 0 bytes"    
-        fi  
+            echo "Size is equal 0 bytes"
+        fi
     else
         echo "$line does not exist"
-    fi  
+    fi
 done
